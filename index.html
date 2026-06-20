@@ -1,0 +1,222 @@
+# index.html
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfredo Parejo | Portafolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">AlfredoDev</h1>
+
+            <ul class="nav-links">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Tecnologías</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Hola, soy</h2>
+            <h1>Alfredo Parejo</h1>
+
+            <h3>
+                Desarrollador en formación | C# | .NET | Frontend
+            </h3>
+
+            <p>
+                Actualmente aprendiendo desarrollo de software con enfoque en
+                C#, programación orientada a objetos, bases de datos,
+                APIs y desarrollo web.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    Ver proyectos
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contacto
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SOBRE MI -->
+    <section id="about" class="about section">
+        <h2 class="section-title">Sobre mí</h2>
+
+        <div class="about-content">
+            <p>
+                Soy un desarrollador en formación apasionado por la tecnología,
+                la programación y la creación de aplicaciones.
+
+                Actualmente estudio C#, programación orientada a objetos,
+                bases de datos y desarrollo frontend.
+            </p>
+
+            <p>
+                Me enfoco en aprender construyendo proyectos reales para
+                desarrollar experiencia práctica y mejorar continuamente
+                mis habilidades.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- TECNOLOGIAS -->
+    <section id="skills" class="skills section">
+        <h2 class="section-title">Tecnologías</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>Backend</h3>
+
+                <ul>
+                    <li>C#</li>
+                    <li>POO</li>
+                    <li>Interfaces</li>
+                    <li>MySQL</li>
+                    <li>APIs REST</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Frontend</h3>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Herramientas</h3>
+
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Visual Studio</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PROYECTOS -->
+    <section id="projects" class="projects section">
+        <h2 class="section-title">Proyectos</h2>
+
+        <div class="projects-container">
+
+            <!-- Proyecto 1 -->
+            <div class="project-card">
+                <h3>Sistema Escolar</h3>
+
+                <p>
+                    Sistema de gestión escolar desarrollado en C# y MySQL.
+                    Permite administrar estudiantes, cursos, maestros,
+                    materias y reportes académicos.
+                </p>
+
+                <span>C# | .NET | MySQL</span>
+
+                <br><br>
+
+                <a href="proyectos/sistema-escolar.html">
+                    Ver detalles
+                </a>
+            </div>
+
+
+            <!-- Proyecto 2 -->
+            <div class="project-card">
+                <h3>Sistema de Pagos</h3>
+
+                <p>
+                    Proyecto en C# utilizando programación orientada
+                    a objetos, interfaces y polimorfismo.
+                </p>
+
+                <span>C# | POO</span>
+            </div>
+
+
+            <!-- Proyecto 3 -->
+            <div class="project-card">
+                <h3>Sistema de Reservas de Hotel</h3>
+
+                <p>
+                    Aplicación en C# para gestionar reservas,
+                    habitaciones y clientes.
+                </p>
+
+                <span>C# | Colecciones</span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ROADMAP -->
+    <section class="roadmap section">
+        <h2 class="section-title">Roadmap de Aprendizaje</h2>
+
+        <div class="roadmap-container">
+            <div class="roadmap-item done">✅ Fundamentos de programación</div>
+            <div class="roadmap-item done">✅ Programación orientada a objetos</div>
+            <div class="roadmap-item done">✅ CRUD con base de datos</div>
+            <div class="roadmap-item progress">🔄 APIs REST</div>
+            <div class="roadmap-item progress">🔄 ASP.NET Core</div>
+            <div class="roadmap-item future">🚀 Desarrollo Fullstack</div>
+        </div>
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contact" class="contact section">
+        <h2 class="section-title">Contacto</h2>
+
+        <div class="contact-container">
+            <p>Email: frodoparejo@gmail.com</p>
+            <p>GitHub: github.com/tuusuario</p>
+            <p>Soledad, Colombia</p>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            © 2026 Alfredo Parejo - Portafolio de Desarrollo
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
